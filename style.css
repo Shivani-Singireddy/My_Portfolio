@@ -1,0 +1,117 @@
+/* Applying font  */
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Poppins:ital,wght@0,400;0,500;0,700;1,100&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Font applied successfully */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Nav bar */
+.navigation{
+    background-color: navy;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    margin:10px;
+} .navigation .brand-name{
+    font-family: 'Benne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0rem 1rem;
+    text-align: left;
+    position: absolute;
+}
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+.navigation ul li{
+    text-align: right;
+    display: inline-block;
+    padding: 0 0.5rem;
+    /* border:1px solid white; */
+    border-radius: 10px;
+}
+.navigation ul li a{
+    color:white;
+    text-decoration: none;
+}
+/* .secondary-link{
+    color: black;
+    background-color: navy;
+    border-radius: 0.5rem;
+} */
+ .secondary-link:hover{
+    color: white;
+    padding: 0 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Nav menu completed */
+/* Header */
+.hero img.profile{
+    margin:auto;
+    display: block;
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.hero h2{
+    margin:auto;
+    text-align:center;
+    font-size: 500;
+}
+.hero p{
+    margin:10px;
+    text-align: justify;
+    font-size: 400;
+}
+/* Header completed */
+/* Section */
+.section{
+    display: flex;
+    width:auto;
+    text-align: center;
+}
+.section .child{
+    padding:10px;
+    background-color: burlywood;
+    border: 2px inset black;
+    border-radius: 1rem;
+    width:50%;
+    margin: 10px;
+    line-height: 30px;
+}
+footer{
+    margin:10px;
+    background-color: black;
+    color: white;
+    padding: 1rem 1rem;
+    text-align:center;
+    border-radius: 1rem;
+    line-height: 25px;
+}
+footer div h3{
+    font-weight: 500;
+    font-size: medium;
+    padding: 0.5rem;
+}
+/* footer ul{
+    padding-inline-start:0px;
+} */
+footer ul li{
+    display: inline;
+    text-align:center;
+    padding: 2rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* Footer completed */
