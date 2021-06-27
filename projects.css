@@ -40,47 +40,27 @@ body {
     color:white;
     text-decoration: none;
 }
-/* .secondary-link{
-    color: black;
-    background-color: navy;
-    border-radius: 0.5rem;
-} */
 .secondary-link:hover{
     color: white;
     padding: 0 0.5rem;
     background-color: black;
     border-radius: 10px;
 }
-
 /* Nav menu completed */
-/* Header */
-.hero img.profile{
-    margin:auto;
-    display: block;
-    height: 20%;
-    width: 20%;
-    border-radius: 100%;
-    border: 1px solid black;
-}
-.hero h2{
-    margin:auto;
-    text-align:center;
-    font-size: 500;
-}
-.hero p{
-    margin:10px;
-    text-align: justify;
-    font-size: 400;
-}
-/* Header completed */
 /* Section */
-.section{
+section{
+    height: 50%;
+    /* margin-left: 10px;
+    margin-bottom: 13rem; */
+}
+.section1{
     display: flex;
     width:auto;
     text-align: center;
+    padding:1rem;
 }
-.section .child{
-    padding:10px;
+.section1 .child{
+    padding:50px;
     background-color: burlywood;
     border: 2px inset black;
     border-radius: 1rem;
@@ -88,10 +68,35 @@ body {
     margin: 10px;
     line-height: 30px;
 }
-.section .child p a{
+.section1 .child p a{
     color: black;
 }
-.section .child p a:hover{
+.section1 .child p a:hover{
+    background-color: black;
+    color:whitesmoke;
+    padding: 3px;
+    border-radius:1rem;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.section2{
+    display: flex;
+    width:auto;
+    text-align: center;
+}
+.section2 .child{
+    padding:50px;
+    background-color: burlywood;
+    border: 2px inset black;
+    border-radius: 1rem;
+    width:50%;
+    margin: 10px;
+    line-height: 30px;
+}
+.section2 .child p a{
+    color: black;
+}
+.section2 .child p a:hover{
     background-color: black;
     color:whitesmoke;
     padding: 3px;
@@ -113,9 +118,6 @@ footer div h3{
     font-size: medium;
     padding: 0.5rem;
 }
-/* footer ul{
-    padding-inline-start:0px;
-} */
 footer ul li{
     display: inline;
     text-align:center;
